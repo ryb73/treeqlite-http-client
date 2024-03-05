@@ -11,21 +11,13 @@ import {
   type RequestBody as QueryRequestBody,
   ResponseBody as QueryResponseBody,
 } from "treeqlite-http-types/query";
+import { TreeQLiteHttpRequestError } from "./TreeQLiteHttpRequestError.js";
+
+export { TreeQLiteHttpRequestError } from "./TreeQLiteHttpRequestError.js";
 
 export type TqlHttpClientConfig = {
   baseUrl: string;
 };
-
-export class TreeQLiteHttpRequestError extends Error {
-  public constructor(
-    public requestBody: ExecRequestBody,
-    public response: Response
-  ) {
-    super(`TreeQLiteHttpRequestError`);
-    // eslint-disable-next-line @typescript-eslint/quotes, @shopify/prefer-class-properties
-    this.name = "TreeQLiteHttpRequestError";
-  }
-}
 
 export async function tqlExec(
   { baseUrl }: TqlHttpClientConfig,

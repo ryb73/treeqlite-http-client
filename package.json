@@ -31,6 +31,6 @@
   "packageManager": "yarn@4.1.1",
   "dependencies": {
     "@ryb73/super-duper-parakeet": "^12.1.0",
-    "treeqlite-http-types": "^0.1.1"
+    "treeqlite-http-types": "^0.2.0"
   }
 }

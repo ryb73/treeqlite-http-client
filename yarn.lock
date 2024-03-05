@@ -8416,18 +8416,18 @@ __metadata:
     eslint: "npm:^8.57.0"
     eslint-config-hardcore: "npm:^45.3.0"
     eslint-plugin-deprecation: "npm:^2.0.0"
-    treeqlite-http-types: "npm:^0.1.1"
+    treeqlite-http-types: "npm:^0.2.0"
     typescript: "npm:~5.2.0"
   languageName: unknown
   linkType: soft
 
-"treeqlite-http-types@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "treeqlite-http-types@npm:0.1.1"
+"treeqlite-http-types@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "treeqlite-http-types@npm:0.2.0"
   dependencies:
     fp-ts: "npm:^2.16.2"
     io-ts: "npm:^2.2.21"
-  checksum: 10c0/3d9c5b193a7ac85737082ecbc284395ce5f688296cae6e241b67c1bfef2c2beca429945890dcb9ce0c2e705ccfde917b713a4b13c0c47c81f6fe242c48910ade
+  checksum: 10c0/b7b557d0b68d028b416ef29ff947d3218f19a0c2cd50edc082bc9374309421ab0f59ad3f7a2719add9b76d3761d6193abdc41a8c582d4e10fdc0333e76e606f5
   languageName: node
   linkType: hard
 
