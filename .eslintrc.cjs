@@ -13,4 +13,8 @@ module.exports = {
       },
     },
   ],
+
+  rules: {
+    "@typescript-eslint/parameter-properties": `off`,
+  },
 };

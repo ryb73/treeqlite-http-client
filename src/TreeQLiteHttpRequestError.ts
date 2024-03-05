@@ -1,4 +1,4 @@
-import { TreeQLiteRequest } from "treeqlite-http-types";
+import type { TreeQLiteRequest } from "treeqlite-http-types";
 
 export class TreeQLiteHttpRequestError extends Error {
   public constructor(
